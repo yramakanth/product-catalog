@@ -1,0 +1,11 @@
+server:
+  port: 8282
+
+  managment:
+      endpoint:
+      shutdown:
+      enabled:true
+      endpoints:
+      web:
+      exposure:
+      include:"*"
